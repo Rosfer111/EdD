@@ -21,7 +21,7 @@ if (Number.isNaN(b)) {
     formatoOk = false;
 }
 
-if (flagFormatoOk) {
+if (formatoOk) {
     if (a>b) {
         console.log(`el maximo es ${a}`);
     } else if (a===b) {
